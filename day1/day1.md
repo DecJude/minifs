@@ -4,8 +4,9 @@
 ```
 cd day1/
 make
-insmod minifs.ko
+sudo insmod minifs.ko
 
 cat /proc/filesystems
-
 ```
+可以看到minfs 已经注册到了系统中去
+`nodev	minifs`
